@@ -8,3 +8,6 @@ class ListandoPessoa(admin.ModelAdmin):
     list_per_page = 10
 
 admin.site.register(Pessoa,ListandoPessoa)
+
+class Meta:
+    app_label = 'pessoas'
